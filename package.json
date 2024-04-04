@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.spec.js",
+    "dev": "nodemon index",
+    "coverage": "nyc --all --reporter=html --reporter=text mocha test/*.spec.js --timeout 5000 --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "chai": "^4.4.1",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^9.2.2",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0",
+    "nyc": "^15.1.0",
+    "sinon": "^17.0.1",
+    "sinon-chai": "^3.7.0",
+    "supertest": "^6.3.4"
+  }
+}
