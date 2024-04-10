@@ -5,7 +5,7 @@ const TodoModel=require('./model/todo.model')
 require('dotenv').config();
 
 //const port=process.env.PORT;
-cosnt port=8000;
+const port=8000;
 app.get('/',(req,res)=>{
     res.send("hello world")
 });
